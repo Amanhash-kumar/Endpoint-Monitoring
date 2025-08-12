@@ -1,0 +1,29 @@
+# Minimum system requirement for this project is as follows 
+
+Operating System:
+- Ubuntu 20.04 LTS or later (64-bit) OR Debian 10+/CentOS 7+
+- Root or sudo privileges required
+
+Minimum Hardware:
+- CPU: 4 cores (64-bit processor)
+- RAM: 8 GB (minimum) — 16 GB recommended for production
+- Storage: 200 GB free disk space (SSD preferred for performance)
+- Network: Stable internet connection (10 Mbps+ recommended)
+
+Software Prerequisites:
+- curl
+- wget
+- git
+- default-jdk (for Logstash)
+- docker.io
+- docker-compose
+- apt-transport-https
+- gnupg
+- python3 (optional, if scripts require)
+
+Notes:
+- Ensure the system firewall allows traffic on Wazuh, Logstash, and Redash ports:
+  - Wazuh Manager: TCP 1514, 1515, 55000
+  - Logstash (Beats input): TCP 5044
+  - Redash (web): TCP 5000
+  - MongoDB Atlas: TCP 27017
