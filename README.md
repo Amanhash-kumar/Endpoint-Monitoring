@@ -11,10 +11,16 @@
 
 # Repository Structure
 ├── docs/
+
 │ ├── installation_guide.md # Step-by-step environment setup
+
 │ ├── configuration_guide.md # Linking Wazuh, Logstash, MongoDB, and Redash
+
 │ └─troubleshooting.md # Common issues and fixes
+
 │
+
 ├── requirements.txt
+
 └── README.md # Project overview (this file)
 
