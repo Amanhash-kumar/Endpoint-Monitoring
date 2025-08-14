@@ -68,7 +68,7 @@ go to "database" --> "connect" then make note of the url which might look like t
 
 go to http://localhost:5000 to access redash and login with your credentials
 from the homepage select "connect a data source"
-# in the Type selection select MongoDB
-# then give name to your db, provide mongodb uri in the connection string, and useranme, password, Database name respectively
-# then click save, youc can also test the connection.
+in the Type selection select MongoDB
+then give name to your db, provide mongodb uri in the connection string, and useranme, password, Database name respectively
+then click save, youc can also test the connection.
  
