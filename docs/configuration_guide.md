@@ -1,6 +1,6 @@
                                                        # configuring wazuh
                                                        
-# open the link displayed at the end of wazuh installation and login with username and ppassword
+open the link displayed at the end of wazuh installation and login with username and ppassword
 
 # then on the left side search for Agents Management tab and look for 'Summary' 
 
